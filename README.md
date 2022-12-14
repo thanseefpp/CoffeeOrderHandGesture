@@ -1,46 +1,28 @@
-# Hand Gesture
-
-## Table of Contents
-
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
-
-## About <a name = "about"></a>
-
-Write about 1-2 paragraphs describing the purpose of your project.
-
-## Getting Started <a name = "getting_started"></a>
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+# Hand Gesture Coffee Order (OPEN CV )
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+You Must need Python3 and OpenCV installed on your pc.
 
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+A step by step installation follow these methods.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+1. install wheel
 
 ```
-until finished
+pip install wheel
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
+2. install all the requirements
 
-## Usage <a name = "usage"></a>
+```
+pip3 install -r requirements.txt
+```
 
-Add notes about how to use the system.
+if your are getting any error from mediapipe you should have to uncomment the mediapipe silicon and comment the existing one (Only if your a MacOS User).
+
+if your are a windows or Linux user You may not face issue but incase if you got any error past the error in google and you may can find a solution at Stackoverflow
+
+please follow my instagram @thanseeftsf and ask any doubts.
