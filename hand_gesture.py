@@ -51,11 +51,19 @@ while flag == 0:
     # ration is frame width and height
     imgBackground[139:139+480, 50:50+640] = img
     imgBackground[0:720, 847:1280] = image_mode[mode_type]
+    
+    if hands and mode_type == 3:
+        hand1 = hands[0]
+        fingers1 = detector.fingersUp(hand1)
+        if fingers1 == [1,0,0,0,0]:
+            if order_complete > 0:
+                order_complete += 1
+                if order_complete >= 30:
+                    flag = 1
 
     if hands and counter_pause == 0 and mode_type < 3:
         hand1 = hands[0]
         fingers1 = detector.fingersUp(hand1)
-        # print(fingers1)
 
         #here the 1 represent index finger this condition will execute. when the user show index finger
         if fingers1 == [0,1,0,0,0]:
@@ -99,11 +107,6 @@ while flag == 0:
             if mode_type == 3:
                 order_complete = 1
 
-    if order_complete > 0:
-        order_complete += 1
-        if order_complete >= 80:
-            flag = 1
-
     if counter_pause > 0:
         counter_pause += 1
         if counter_pause >= 60:
@@ -118,5 +121,5 @@ while flag == 0:
 
 
     # cv2.imshow("Image",img)
-    cv2.imshow("Background", imgBackground)
+    cv2.imshow("HandTracker - Coffee Booking", imgBackground)
     cv2.waitKey(1)
