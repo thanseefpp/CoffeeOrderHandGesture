@@ -21,7 +21,7 @@ pip install wheel
 pip3 install -r requirements.txt
 ```
 
-if your are getting any error from mediapipe you should have to uncomment the mediapipe silicon and comment the existing one (Only if your a MacOS User).
+if your are getting any error from mediapipe you should have to uncomment the mediapipe silicon and comment the existing one (Only if your a MacOS User with M1 or M2 etc).
 
 In case you get any errors, try Stackoverflow.
 
