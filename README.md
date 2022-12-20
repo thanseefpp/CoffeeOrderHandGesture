@@ -23,6 +23,6 @@ pip3 install -r requirements.txt
 
 if your are getting any error from mediapipe you should have to uncomment the mediapipe silicon and comment the existing one (Only if your a MacOS User).
 
-if your are a windows or Linux user You may not face issue but incase if you got any error past the error in google and you may can find a solution at Stackoverflow
+In case you get any errors, try Stackoverflow.
 
 please follow my instagram @thanseeftsf and ask any doubts.
