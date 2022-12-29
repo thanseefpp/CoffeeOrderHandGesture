@@ -26,3 +26,6 @@ if your are getting any error from mediapipe you should have to uncomment the me
 In case you get any errors, try Stackoverflow.
 
 please follow my instagram @thanseeftsf and ask any doubts.
+
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/62167887/209973346-389b00fe-258f-4f98-bd6f-ce9c49d8eca1.gif)
